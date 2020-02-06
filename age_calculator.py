@@ -4,9 +4,9 @@ def check_birthdate(year, month, day):
 	birthday = datetime(year, month , day)
 	today = datetime.now()
 	if birthday > today :
-		return false
+		return False
 	else:
-		return ture
+		return True
 def calculate_age(year, month, day):
 	birthday = datetime(year, month, day)
 	today = datetime.now()
